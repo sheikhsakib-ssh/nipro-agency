@@ -1,0 +1,365 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header started  */
+    /* logo  */
+    .logo h1{
+        font-size:25px ;
+    }
+    /* menu  */
+    .menu ul li a{
+        padding:5px 0 0 !important;
+    }
+    .menu ul li:first-child{
+       margin-top: 10px !important;
+    }
+    /* search button  */
+    .s_dm{
+        padding: 0;
+        width: 250px;
+    }
+    .s_dm[data-bs-popper] {
+        top: 50px;
+        left: 0;
+    }
+    /* header finished */
+    /* banner started  */
+    /* slider  */
+    .s_slider{
+        margin: 40px 0;
+    }
+    .s_slider h2{
+        font-size: 27px;
+    }
+    .s_slider p{
+        margin: 30px 0 40px;
+        line-height: 20px;
+    }
+    /* button  */
+    .btn_c{
+        width: 150px;
+        height: 40px;
+    }
+    /* banner finished */
+    /* feature area started  */
+    .c_rec{
+        width: 2px;
+        height: 30px;
+   
+   }
+   .c_h1{
+        font-size:25px ;
+        padding-bottom: 30px !important;
+    }
+    /* 2nd row */
+    .c_text p{
+        margin: 0;
+        line-height: 24px;
+        padding-bottom: 60px;
+    }
+    /* 3rd row */
+    .f_single{
+        padding: 45px 15px 0px;
+    }
+    .f_icon{
+        margin: -67px auto 0;
+    }
+    .f_single p{
+        padding-bottom: 30px;
+    }
+    /* feature area finished */
+    /* about area started  */
+    .about{
+        padding-bottom: 60px;
+    }
+    .about img{
+        height: 250px;
+        padding-bottom: 30px;
+  
+    }
+    .about_us h2{
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    /* about area finished */
+
+    /* work area started  */
+     /* btn pad start  */
+     .nav-link {
+        padding: 0 10px;
+    }
+     /* btn pad end */
+    .rw h1{
+        padding-bottom: 0 !important;
+    }
+    /* work area finished */
+    /* choosen area started  */
+    .ch_h1 h1{
+        font-size: 28px;
+    }
+    /* choosen area started  */
+    /* choosen area start  */
+    .choose{
+        padding-bottom: 40px;
+    }
+    /* choosen area end */
+    
+    /* pricing area start  */
+    .price{
+        padding-bottom: 40px;
+    }
+    .sp_btn{
+        padding:40px 65px ;
+    }
+    /* pricing area end */
+
+      /* contact area started  */
+      .contact{
+        padding-bottom: 40px;
+    }
+    /* contact area finished */
+
+    /* footer start  */
+    .social{
+        font-size: 35px;
+        padding-bottom: 50px;
+    }
+    /* footer end */
+      
+    
+    
+    
+    
+ }
+
+/* small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header started  */
+    /* logo  */
+    .logo h1{
+        font-size:25px ;
+    }
+    /* menu  */
+    .menu ul li a{
+        padding:5px 0 0 !important;
+    }
+    .menu ul li:first-child{
+       margin-top: 10px !important;
+    }
+    /* search button  */
+    .s_dm{
+        padding: 0;
+        width: 250px;
+    }
+    .s_dm[data-bs-popper] {
+        top: 50px;
+        left: 0;
+    }
+    /* header finished */
+    /* banner started  */
+    /* slider  */
+    .s_slider{
+        margin: 40px 0;
+    }
+    .s_slider h2{
+        font-size: 27px;
+    }
+    .s_slider p{
+        margin: 30px 0 40px;
+        line-height: 20px;
+    }
+    /* button  */
+    .btn_c{
+        width: 150px;
+        height: 40px;
+    }
+    /* banner finished */
+    /* feature area started  */
+    .c_rec{
+        width: 2px;
+        height: 30px;
+   
+   }
+   .c_h1{
+        font-size:25px ;
+        padding-bottom: 30px !important;
+    }
+    /* 2nd row */
+    .c_text p{
+        margin: 0;
+        line-height: 24px;
+        padding-bottom: 60px;
+    }
+    /* 3rd row */
+    .f_single{
+        padding: 45px 15px 0px;
+    }
+    .f_icon{
+        margin: -67px auto 0;
+    }
+    .f_single p{
+        padding-bottom: 30px;
+    }
+    /* feature area finished */
+    /* about area started  */
+    .about{
+        padding-bottom: 60px;
+    }
+    .about img{
+        height: 280px !important;
+        padding-bottom: 30px;
+    }
+    .about_us h2{
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    /* about area finished */
+    /* work area started  */
+    /* btn pad start  */
+    .nav-link {
+        padding: 0 10px;
+    }
+     /* btn pad end */
+    .rw h1{
+        padding: 0 !important;
+    }
+    /* work area finished */
+    /* choosen area start  */
+    .choose{
+        padding-bottom: 40px;
+    }
+    /* choosen area end */
+    /* pricing area start  */
+    .price{
+        padding-bottom: 40px;
+    }
+    /* pricing area end */
+
+    /* contact area started  */
+    .contact{
+        padding-bottom: 40px;
+    }
+    /* contact area finished */
+
+    /* footer start  */
+    .social{
+        font-size: 35px;
+        padding-bottom: 50px;
+    }
+    /* footer end */
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* header started  */
+    /* menu  */
+    .menu ul li a{
+        padding:10px 0 0 !important;
+    }
+    .menu ul li:first-child{
+       margin-top: 10px !important;
+    }
+    /* search button  */
+    .s_dm{
+        padding: 0;
+        width: 300px;
+    }
+    .s_dm[data-bs-popper] {
+        top: 5px;
+        left: 40px;
+    }
+    /* header finished */
+    /* banner started  */
+    /* slider  */
+    .s_slider{
+        margin: 70px 0;
+    }
+    .s_slider h2{
+        font-size: 35px;
+    }
+    .s_slider p{
+        margin: 35px 0 45px;
+        line-height: 24px;
+    }
+    /* button  */
+    .btn_c{
+        width: 200px;
+        height: 50px;
+    }
+    /* banner finished */
+    /* feature area started  */
+    .c_text p{ 
+        padding-bottom: 60px;
+    }
+    /* feature area finished */
+    /* about area started  */
+    .about{
+        padding-bottom: 100px;
+    }
+    .about img{
+        height: 330px !important;
+    }
+    .about_us h2{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .about_us p{
+        padding-bottom: 10px;
+    }
+    /* button  */
+    .btn_c{
+        width: 150px;
+        height: 40px;
+    }
+    /* about area finished */
+    /* work area started  */
+    .rw h1{
+        padding-bottom: 0 !important;
+    }
+    /* work area finished */
+
+    /* choosen area start  */
+    .choose{
+        padding-bottom: 70px;
+    }
+    /* choosen area end */
+    /* pricing area start  */
+    .price{
+        padding-bottom: 70px;
+    }
+    /* pricing area end */
+
+    /* contact area started  */
+    .contact{
+        padding-bottom: 70px;
+    }
+    /* contact area finished */
+
+    /* footer start  */
+    .social{
+        font-size: 35px;
+        padding-bottom: 70px;
+    }
+    /* footer end */
+
+   
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+}
+/* Extra extra large devices ( extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .about_us p{
+        margin: 0;
+        padding-bottom: 100px;
+    }
+   
+ } 
